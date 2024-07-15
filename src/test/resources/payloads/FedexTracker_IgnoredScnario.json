@@ -1,0 +1,26 @@
+{
+  "orderNumber": "#(orderId)",
+  "fulfillmentOrderNumber": "#(fulfillmentOrderId)",
+  "fulfillmentSystemId": "MARKETPLACER",
+  "seller": {
+    "sellerId": "Seller-170",
+    "sellerName": "Natural Bulk Goods"
+  },
+  "shipment": {
+    "id": "2091",
+    "carrier": "FedEx",
+    "trackingURL": "https://www.fedex.com/apps/fedextrack/?cntry_code\u003dau\u0026tracknumbers\u003d603792095999",
+    "trackingNumber": "771074348327",
+    "shippedDateTime": "2022-02-23T16:16:59.228Z"
+  },
+  "shippedItems": [
+    {
+      "id": "ShippedItem-4470",
+      "marketplaceProductId": "Variant-45703",
+      "qty": 1.0,
+      "upc": "859160003068",
+      "itemId": "970304496"
+    }
+  ],
+  "messageAction": "CREATE"
+}

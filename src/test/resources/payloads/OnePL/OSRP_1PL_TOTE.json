@@ -1,0 +1,729 @@
+{
+  "audit": {
+    "createDate": "2024-06-30T18:35:55.181Z",
+    "modifiedDate": "2024-06-30T18:36:13.758Z",
+    "createdBy": "ECOMMERCE",
+    "modifiedBy": "ACUPICK",
+    "auditLog": {
+      "FFO_CREATED": "2024-06-30T18:35:55.986",
+      "TOTE_UPDATE": "2024-06-30T18:36:13.758255914"
+    }
+  },
+  "orderNumber": "#(orderId)",
+  "versionNumber": 1,
+  "orderStatus": "CREATED",
+  "companyId": "1",
+  "banner": "Safeway",
+  "isActive": true,
+  "storeNumber": "1502",
+  "modifiedReasonCode": "TOTE_UPDATE",
+  "orderEditCutoffDate": "2024-07-01T06:59:59.000Z",
+  "orderCancelCutoffDate": "2024-07-01T11:00:00.000Z",
+  "orderCreatedDate": "2024-06-30T18:35:55.181Z",
+  "fulfillmentSystem": "APS",
+  "sourceInfo": {
+    "source": "ECOMMERCE",
+    "enteredBy": "CUSTOMER",
+    "deviceType": "WEB"
+  },
+  "orderType": {
+    "isAutoReplenishment": true,
+    "isSnapV2": false,
+    "orderSize": "REGULAR"
+  },
+  "orderTotal": {
+    "amount": 6.78,
+    "totalSavings": 47.08,
+    "snapEligibleTotal": 0.00,
+    "nonsnapEligibleTotal": 0.00,
+    "currency": "USD",
+    "itemTotalAmount": 47.08,
+    "itemTotalAfterSavingsAmount": 0.00,
+    "quotedOrderTotalAmount": 6.78,
+    "totalCardSavings": 47.08,
+    "taxAndFees": {
+      "totalTaxesAndFeesAmount": 6.78,
+      "details": [
+        {
+          "key": "Sales Tax",
+          "value": 0.13
+        },
+        {
+          "key": "Delivery Fee",
+          "value": 5.95
+        },
+        {
+          "key": "Bag Fee",
+          "value": 0.50
+        },
+        {
+          "key": "Container Deposit",
+          "value": 0.20
+        }
+      ]
+    },
+    "taxes": [
+      {
+        "type": "Sales Tax",
+        "amount": 0.13
+      }
+    ],
+    "cardSavings": [
+      {
+        "savingsCategoryName": "Club Card Savings",
+        "savingsAmount": 4.88
+      },
+      {
+        "savingsCategoryName": "Just for U Savings",
+        "savingsAmount": 40.00
+      },
+      {
+        "savingsCategoryName": "Schedule \u0026 Save",
+        "savingsAmount": 2.20
+      }
+    ],
+    "txnLevelSavings": [
+      {
+        "offerId": "80471998",
+        "externalOfferId": "80471998-ND",
+        "calculateUsage": false,
+        "categoryId": 76,
+        "categoryName": "010-Basket Savings",
+        "source": "OMS Non-Digital",
+        "programCode": "SC",
+        "startDate": "2023-12-27T00:00:00.000Z",
+        "endDate": "2030-12-31T00:00:00.000Z",
+        "discountAmount": 40.00,
+        "discountType": "Fixed Amount Off",
+        "description": "",
+        "discountMessage": "$40 Off Basket",
+        "discountLevel": "Basket Level",
+        "discountQty": 1,
+        "points": [],
+        "clipIds": [
+          "Once Per Transaction"
+        ]
+      },
+      {
+        "offerId": "94333205",
+        "externalOfferId": "94333205-ND",
+        "calculateUsage": true,
+        "categoryId": 67,
+        "categoryName": "001-Club Card Savings",
+        "source": "OMS Non-Digital",
+        "programCode": "SC",
+        "startDate": "2024-03-19T00:00:00.000Z",
+        "endDate": "2024-07-27T00:00:00.000Z",
+        "discountAmount": 1.72,
+        "discountType": "Fixed Amount Off",
+        "description": "",
+        "discountMessage": "test Custom",
+        "discountLevel": "Basket Level",
+        "discountQty": 1,
+        "points": [],
+        "clipIds": [
+          "Custom"
+        ]
+      }
+    ]
+  },
+  "customer": {
+    "customerId": "557-169-1719772544039",
+    "clubCardNumber": "49374507083",
+    "customerUUID": "6f6c88b2-6cbb-4321-bf9a-a31f429f714f",
+    "isSubscription": false,
+    "name": {
+      "firstName": "pallavi",
+      "lastName": "test"
+    },
+    "address": [
+      {
+        "addressType": "SHIP-TO",
+        "addressLine1": "2685 16th St",
+        "city": "Sacramento",
+        "state": "CA",
+        "zipCode": "95818",
+        "country": "USA",
+        "geoCodes": {}
+      }
+    ],
+    "contact": [
+      {
+        "type": "MOBILE"
+      }
+    ],
+    "email": [
+      {
+        "id": "ci4gam@guerrillamail.com",
+        "type": "PERSONAL"
+      }
+    ],
+    "preference": {
+      "optIn": [
+        {
+          "type": "TEXT",
+          "isOptin": false
+        }
+      ]
+    },
+    "memberId": "932047054724"
+  },
+  "paymentDetails": [
+    {
+      "paymentType": "CREDITCARD",
+      "paymentSubType": "AMEX",
+      "tokenNumber": "341134071201347",
+      "cardExpiryMonth": "12",
+      "cardExpiryYear": "25",
+      "zipcode": "94588",
+      "reqAuthorizationAmount": 6.78,
+      "cardHolderName": "Sorna Fiserv",
+      "address": {
+        "zipCode": "94588"
+      },
+      "paymentStatus": {
+        "status": "AUTHORIZED",
+        "authorizationCode": "6681A58A365108BE0000082C0000F6B141565328",
+        "authorizationDate": "2024-06-30T18:35:55.538Z"
+      }
+    }
+  ],
+  "subOrders": [
+    {
+      "fulfillmentOrderNumber": "#(fulfillmentOrderId)",
+      "subOrderNumber": 1,
+      "fulfillmentType": "DELIVERY",
+      "subOrderType": {
+        "serviceLevel": "REGULAR",
+        "isMto": false,
+        "isMarketPlace": false,
+        "isWine": false,
+        "isB2B": false,
+        "cartCategory": "1P"
+      },
+      "customerService": {
+        "contact": [
+          {
+            "number": "9253152903",
+            "type": "PHONE",
+            "subType": "OPERATION_PHONE_MOBILE1"
+          },
+          {
+            "number": "9259893286",
+            "type": "PHONE",
+            "subType": "DUG_VIRTUAL_PHONE"
+          },
+          {
+            "number": "9253152904",
+            "type": "PHONE",
+            "subType": "OPERATION_PHONE_MOBILE2"
+          },
+          {
+            "number": "8775054040",
+            "type": "PHONE",
+            "subType": "CUST_SERV_PHONE"
+          }
+        ]
+      },
+      "deliveryInfo": {
+        "deliverySubType": "RESIDENTIAL",
+        "slotInfo": {
+          "slotPlan": "STANDARD",
+          "slotType": "TWOHR",
+          "slotId": "1502MON20240701REGULARDELIVERY8001000-2024-07-01",
+          "timeZone": "America/Los_Angeles",
+          "startTime": "2024-07-01T15:00:00.000Z",
+          "endTime": "2024-07-01T17:00:00.000Z",
+          "shiftNumber": "1",
+          "editingCutoffDate": "2024-07-01T11:00:00.000Z",
+          "deliveryFee": 5.95,
+          "slotTillByTime": "2024-07-01T15:45:00.000Z",
+          "slotAvailabilityTime": "2024-06-17T15:00:00.000Z",
+          "fulfillmentVendor": "ABS-GROCERY",
+          "pickerOption": "ABS-GROCERY"
+        },
+        "deliveryServiceType": "UNATTENDED",
+        "instructions": "leave at door step",
+        "stageByDateTime": "2024-07-01T14:30:00.000Z"
+      },
+      "charges": [
+        {
+          "id": "0000000022151",
+          "name": "DeliveryFee",
+          "category": "DeliveryFee",
+          "chargeAmount": {
+            "amount": 5.95,
+            "currency": "USD"
+          }
+        },
+        {
+          "id": "0000000029103",
+          "name": "BagFee",
+          "category": "ServiceFee",
+          "chargeAmount": {
+            "amount": 0.1,
+            "currency": "USD"
+          }
+        }
+      ],
+      "promoCodes": [],
+      "tote": {
+        "toteEstimate": {
+          "chilled": 1,
+          "frozen": 0,
+          "ambient": 1,
+          "hot": 0
+        }
+      },
+      "orderLines": [
+        {
+          "itemId": "108200311",
+          "itemDescription": "vitaminwater Water Beverage Nutrient Enhanced Energy Tropical Citrus - 20 Fl. Oz.",
+          "orderedQuantity": 4,
+          "displayType": "-1",
+          "unitOfMeasure": "FZ",
+          "itemSizeQty": 20.0,
+          "unitPrice": {
+            "amount": 1.00,
+            "currency": "USD"
+          },
+          "totalItemPrice": 1.00,
+          "substitutionCode": "3",
+          "substitutionValue": "Best Available",
+          "itemPackageQty": 1.0,
+          "isRegulatedItem": false,
+          "isReplenishItem": true,
+          "department": {
+            "id": "313",
+            "name": "Baby Care"
+          },
+          "aisle": {
+            "id": "1_1_5_1",
+            "name": "Water \u0026 Sparkling Water"
+          },
+          "shelf": {
+            "id": "1_1_5_1",
+            "name": "Enhanced Water"
+          },
+          "itemPrice": {
+            "itemCode": "0078616208000",
+            "entryId": 1,
+            "department": 313,
+            "snapEligible": false,
+            "unitPrice": 1.00,
+            "basePrice": 1.79,
+            "basePricePer": 0.09,
+            "pricePer": 0.05,
+            "sellByWeight": "I",
+            "averageWeight": 0.000,
+            "clubCardSaving": 3.16,
+            "extendedPrice": 4.00,
+            "quantityType": "EA",
+            "quantityValue": 4.0,
+            "discountAllowed": true,
+            "linkPluNumber": "248000080278",
+            "itemPluNumber": "0",
+            "pointsApplyItem": false,
+            "wic": false,
+            "isArProduct": true,
+            "startDate": "2023-08-15T00:00:01.000Z",
+            "endDate": "2024-12-29T23:59:00.000Z",
+            "netPromotionAmount": 0.00,
+            "savings": [
+              {
+                "offerId": "61823165",
+                "externalOfferId": "61823165-ND",
+                "categoryId": 40,
+                "categoryName": "Schedule \u0026 Save",
+                "source": "OMS Non-Digital",
+                "netPromotionAmount": 3.80,
+                "programCode": "SC",
+                "startDate": "2024-04-18T00:00:00.000Z",
+                "endDate": "2026-12-31T00:00:00.000Z",
+                "discountAmount": 0.20,
+                "discountType": "Percent Off",
+                "description": "",
+                "discountMessage": "Schedule  Save",
+                "discountLevel": "Item Level",
+                "calculateUsage": false,
+                "discountQty": 1,
+                "clipIds": [
+                  "Once Per Transaction"
+                ]
+              },
+              {
+                "offerId": "80471998",
+                "externalOfferId": "80471998-ND",
+                "categoryId": 76,
+                "categoryName": "010-Basket Savings",
+                "source": "OMS Non-Digital",
+                "netPromotionAmount": 0.15,
+                "programCode": "SC",
+                "startDate": "2023-12-27T00:00:00.000Z",
+                "endDate": "2030-12-31T00:00:00.000Z",
+                "discountAmount": 3.65,
+                "discountType": "Fixed Amount Off",
+                "description": "",
+                "discountMessage": "$40 Off Basket",
+                "discountLevel": "Basket Level",
+                "calculateUsage": false,
+                "discountQty": 1,
+                "clipIds": []
+              },
+              {
+                "offerId": "94333205",
+                "externalOfferId": "94333205-ND",
+                "categoryId": 67,
+                "categoryName": "001-Club Card Savings",
+                "source": "OMS Non-Digital",
+                "netPromotionAmount": 0.00,
+                "programCode": "SC",
+                "startDate": "2024-03-19T00:00:00.000Z",
+                "endDate": "2024-07-27T00:00:00.000Z",
+                "discountAmount": 0.15,
+                "discountType": "Fixed Amount Off",
+                "description": "",
+                "discountMessage": "test Custom",
+                "discountLevel": "Basket Level",
+                "calculateUsage": true,
+                "discountQty": 1,
+                "clipIds": []
+              }
+            ]
+          },
+          "alcoholVolumePct": 0,
+          "serviceDepartment": {},
+          "isSnsSub": false
+        },
+        {
+          "itemId": "184270061",
+          "itemDescription": "Chinese Long Beans",
+          "orderedQuantity": 1,
+          "displayType": "3",
+          "orderedWeight": 4.00,
+          "orderedWeightUOM": "LB",
+          "minWeight": 1.0,
+          "unitOfMeasure": "LB",
+          "itemSizeQty": 1.0,
+          "unitPrice": {
+            "amount": 4.99,
+            "currency": "USD"
+          },
+          "totalItemPrice": 4.99,
+          "substitutionCode": "3",
+          "substitutionValue": "Best Available",
+          "itemPackageQty": 1.0,
+          "isRegulatedItem": false,
+          "isReplenishItem": true,
+          "department": {
+            "id": "329",
+            "name": "Fruits \u0026 Vegetables"
+          },
+          "aisle": {
+            "id": "1_23_2_3",
+            "name": "Fresh Vegetables \u0026 Herbs"
+          },
+          "shelf": {
+            "id": "1_23_2_3",
+            "name": "Beans \u0026 Peas"
+          },
+          "itemPrice": {
+            "itemCode": "0048438016101",
+            "entryId": 2,
+            "department": 329,
+            "snapEligible": false,
+            "orderedWeight": 4.00,
+            "orderedWeightUOM": "LB",
+            "unitPrice": 4.99,
+            "basePrice": 4.99,
+            "basePricePer": 4.99,
+            "pricePer": 4.99,
+            "sellByWeight": "W",
+            "averageWeight": 1.000,
+            "extendedPrice": 19.96,
+            "quantityType": "WV",
+            "quantityValue": 4.0,
+            "discountAllowed": true,
+            "itemPluNumber": "4527",
+            "pointsApplyItem": true,
+            "wic": true,
+            "isArProduct": true,
+            "netPromotionAmount": 0.00,
+            "savings": [
+              {
+                "offerId": "61823165",
+                "externalOfferId": "61823165-ND",
+                "categoryId": 40,
+                "categoryName": "Schedule \u0026 Save",
+                "source": "OMS Non-Digital",
+                "netPromotionAmount": 18.96,
+                "programCode": "SC",
+                "startDate": "2024-04-18T00:00:00.000Z",
+                "endDate": "2026-12-31T00:00:00.000Z",
+                "discountAmount": 1.00,
+                "discountType": "Percent Off",
+                "description": "",
+                "discountMessage": "Schedule  Save",
+                "discountLevel": "Item Level",
+                "calculateUsage": false,
+                "discountQty": 1,
+                "clipIds": [
+                  "Once Per Transaction"
+                ]
+              },
+              {
+                "offerId": "80471998",
+                "externalOfferId": "80471998-ND",
+                "categoryId": 76,
+                "categoryName": "010-Basket Savings",
+                "source": "OMS Non-Digital",
+                "netPromotionAmount": 0.78,
+                "programCode": "SC",
+                "startDate": "2023-12-27T00:00:00.000Z",
+                "endDate": "2030-12-31T00:00:00.000Z",
+                "discountAmount": 18.18,
+                "discountType": "Fixed Amount Off",
+                "description": "",
+                "discountMessage": "$40 Off Basket",
+                "discountLevel": "Basket Level",
+                "calculateUsage": false,
+                "discountQty": 1,
+                "clipIds": []
+              },
+              {
+                "offerId": "94333205",
+                "externalOfferId": "94333205-ND",
+                "categoryId": 67,
+                "categoryName": "001-Club Card Savings",
+                "source": "OMS Non-Digital",
+                "netPromotionAmount": 0.00,
+                "programCode": "SC",
+                "startDate": "2024-03-19T00:00:00.000Z",
+                "endDate": "2024-07-27T00:00:00.000Z",
+                "discountAmount": 0.78,
+                "discountType": "Fixed Amount Off",
+                "description": "",
+                "discountMessage": "test Custom",
+                "discountLevel": "Basket Level",
+                "calculateUsage": true,
+                "discountQty": 1,
+                "clipIds": []
+              }
+            ]
+          },
+          "alcoholVolumePct": 0,
+          "serviceDepartment": {},
+          "isSnsSub": false
+        },
+        {
+          "itemId": "138350144",
+          "itemDescription": "Egglands Best Eggs Cage Free Large Brown  - 12 Count",
+          "orderedQuantity": 4,
+          "displayType": "-1",
+          "unitOfMeasure": "CT",
+          "itemSizeQty": 12.0,
+          "unitPrice": {
+            "amount": 4.99,
+            "currency": "USD"
+          },
+          "totalItemPrice": 4.99,
+          "substitutionCode": "3",
+          "substitutionValue": "Best Available",
+          "itemPackageQty": 1.0,
+          "isRegulatedItem": false,
+          "isReplenishItem": true,
+          "department": {
+            "id": "324",
+            "name": "Dairy, Eggs \u0026 Cheese"
+          },
+          "aisle": {
+            "id": "1_11_3_1",
+            "name": "Eggs"
+          },
+          "shelf": {
+            "id": "1_11_3_1",
+            "name": "Eggs"
+          },
+          "itemPrice": {
+            "itemCode": "0071514151464",
+            "entryId": 3,
+            "department": 324,
+            "snapEligible": false,
+            "unitPrice": 4.99,
+            "basePrice": 4.99,
+            "basePricePer": 4.99,
+            "pricePer": 4.99,
+            "sellByWeight": "I",
+            "averageWeight": 0.000,
+            "extendedPrice": 19.96,
+            "quantityType": "EA",
+            "quantityValue": 4.0,
+            "discountAllowed": true,
+            "itemPluNumber": "0",
+            "pointsApplyItem": true,
+            "wic": true,
+            "isArProduct": true,
+            "netPromotionAmount": 0.00,
+            "savings": [
+              {
+                "offerId": "61823165",
+                "externalOfferId": "61823165-ND",
+                "categoryId": 40,
+                "categoryName": "Schedule \u0026 Save",
+                "source": "OMS Non-Digital",
+                "netPromotionAmount": 18.96,
+                "programCode": "SC",
+                "startDate": "2024-04-18T00:00:00.000Z",
+                "endDate": "2026-12-31T00:00:00.000Z",
+                "discountAmount": 1.00,
+                "discountType": "Percent Off",
+                "description": "",
+                "discountMessage": "Schedule  Save",
+                "discountLevel": "Item Level",
+                "calculateUsage": false,
+                "discountQty": 1,
+                "clipIds": [
+                  "Once Per Transaction"
+                ]
+              },
+              {
+                "offerId": "80471998",
+                "externalOfferId": "80471998-ND",
+                "categoryId": 76,
+                "categoryName": "010-Basket Savings",
+                "source": "OMS Non-Digital",
+                "netPromotionAmount": 0.79,
+                "programCode": "SC",
+                "startDate": "2023-12-27T00:00:00.000Z",
+                "endDate": "2030-12-31T00:00:00.000Z",
+                "discountAmount": 18.17,
+                "discountType": "Fixed Amount Off",
+                "description": "",
+                "discountMessage": "$40 Off Basket",
+                "discountLevel": "Basket Level",
+                "calculateUsage": false,
+                "discountQty": 1,
+                "clipIds": []
+              },
+              {
+                "offerId": "94333205",
+                "externalOfferId": "94333205-ND",
+                "categoryId": 67,
+                "categoryName": "001-Club Card Savings",
+                "source": "OMS Non-Digital",
+                "netPromotionAmount": 0.00,
+                "programCode": "SC",
+                "startDate": "2024-03-19T00:00:00.000Z",
+                "endDate": "2024-07-27T00:00:00.000Z",
+                "discountAmount": 0.79,
+                "discountType": "Fixed Amount Off",
+                "description": "",
+                "discountMessage": "test Custom",
+                "discountLevel": "Basket Level",
+                "calculateUsage": true,
+                "discountQty": 1,
+                "clipIds": []
+              }
+            ]
+          },
+          "alcoholVolumePct": 0,
+          "serviceDepartment": {},
+          "isSnsSub": false
+        }
+      ],
+      "subOrderStatus": "CREATED",
+      "modifiedReasonCode": "TOTE_UPDATE",
+      "address": [
+        {
+          "addressType": "SHIP-FROM",
+          "addressLine1": "1701 Santa Rita Rd",
+          "city": "Pleasanton",
+          "state": "CA",
+          "zipCode": "94566",
+          "country": "USA"
+        }
+      ]
+    }
+  ],
+  "storeInfo": [
+    {
+      "key": "isHybridStore",
+      "value": "true"
+    },
+    {
+      "key": "isMFC",
+      "value": "true"
+    },
+    {
+      "key": "isErumsEnabled",
+      "value": "true"
+    },
+    {
+      "key": "isPremiumStore",
+      "value": "true"
+    },
+    {
+      "key": "is3PLStore",
+      "value": "true"
+    },
+    {
+      "key": "isDUGArrivalEnabled",
+      "value": "true"
+    },
+    {
+      "key": "isWYSIWYGEnabled",
+      "value": "true"
+    },
+    {
+      "key": "isRolloutWYSIWYGEnabled",
+      "value": "true"
+    },
+    {
+      "key": "storeTimeZone",
+      "value": "America/Los_Angeles"
+    },
+    {
+      "key": "terminalNumber",
+      "value": "99"
+    },
+    {
+      "key": "isDUGLightArrivalEnabled",
+      "value": "false"
+    },
+    {
+      "key": "storeLatitude",
+      "value": "0.0"
+    },
+    {
+      "key": "storeLongitude",
+      "value": "0.0"
+    },
+    {
+      "key": "isPromisePlatform",
+      "value": "true"
+    }
+  ],
+  "orderInfo": {
+    "stageByDateTime": "2024-07-01T14:30:00.000Z",
+    "data": [
+      {
+        "isPickupStore": "false"
+      },
+      {
+        "pickupLocations": ""
+      },
+      {
+        "INITIAL_TOTE_CHILLED": "1",
+        "INITIAL_TOTE_AMBIENT": "1",
+        "INITIAL_TOTE_FROZEN": "0",
+        "INITIAL_TOTE_HOT": "0"
+      }
+    ],
+    "exceptionEnabled": false
+  },
+  "id": "6681a58bda90fa329532ddc2",
+  "version": 2,
+  "modifiedBy": "OSCO-Processor",
+  "modifiedDate": "2024-06-30T18:36:13.758305814",
+  "ttl": -1
+}

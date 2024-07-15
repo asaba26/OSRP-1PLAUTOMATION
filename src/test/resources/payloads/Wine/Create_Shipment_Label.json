@@ -1,0 +1,44 @@
+{
+  "orderNumber": "#(orderId)",
+  "fulfillmentOrderNumber": "#(fulfillmentOrderId)",
+  "activityId": "12345",
+  "messageSource": "Acupick",
+  "event": {
+    "id": "CREATE_SHIPMENT_LABELS",
+    "eventTs": "2021-11-12T11:50:47.485Z",
+    "source": "Acupick"
+  },
+  "data": {
+    "shipments": [
+      {
+        "packageWeight": 5,
+        "packageWeightUOM": "LBS",
+        "referenceNumber": "#(referenceNumber)",
+        "pckgDimensionsUOM": "IN",
+        "packageHeight": 5.13,
+        "packageWidth": 5.13,
+        "packageLength": 14.63,
+        "signatureRequired": "true"
+      }
+    ],
+    "serviceLevel": "REGULAR",
+    "storeId": "5799",
+    "shipToName": "Wine Automation",
+    "shipToAddress": {
+      "addressLine1": "3465 Dublin Blvd",
+      "addressLine2": "Unit 420",
+      "city": "Dublin",
+      "state": "CA",
+      "postalCode": "94566"
+    }, 
+    "shipFromAddress": {
+      "addressLine1": "1930 N Placentia Ave",
+      "addressLine2": "Street address line 2",
+      "city": "Fullerton",
+      "state": "CA",
+      "postalCode": "94566"
+    }
+   ,
+    "fulfilledQtyForWholeOrder": 1
+  }
+}

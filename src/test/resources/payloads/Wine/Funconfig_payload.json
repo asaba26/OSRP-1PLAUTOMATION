@@ -1,0 +1,24 @@
+{
+"carrierObservedHolidays":"2022-07-04,2022-12-25,2023-07-04",
+
+"carrierDeliveryWorkingDays":"1,2,3,4,5,6",
+
+"carrierTransitWorkingDays":"1,2,3,4,5,6",
+
+"carrierPickupWorkingDays":"1,2,3,4,5",
+
+"wfcNode":"5799",
+"wfcCapacityExceptionCalendar" : "2022-08-04,2022-12-25",
+"orderCutoffTime":"20:00",
+"wfcHolidayCalendar":"2022-07-04,2022-12-25",
+"wfcOperatingCalendar": "1,2,3,4,5,6,7",
+"leadTime": "0",
+"wfcTimeZone":"America/Los_Angeles",
+"cancelCutOffTime":"30",
+
+"processingTimeInMinutes":"20",
+
+"carrier":"UPS"
+
+}    
+    

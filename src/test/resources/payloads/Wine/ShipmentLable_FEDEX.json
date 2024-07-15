@@ -1,0 +1,43 @@
+{
+  "orderNumber": "#(orderId)",
+  "fulfillmentOrderNumber": "#(fulfillmentOrderId)",
+  "activityId": "12345",
+  "messageSource": "Acupick",
+  "event": {
+    "id": "CREATE_SHIPMENT_LABELS",
+    "eventTs": "2021-11-12T11:50:47.485Z",
+    "source": "Acupick"
+  },
+  "data": {
+    "serviceLevel": "REGULAR",
+    "storeId": "5799",
+    "shipFromAddress": {
+      "addressLine1": "Streetaddressline2",
+      "city": "Fullerton",
+      "state": "CA",
+      "postalCode": "94566"
+    },
+    "shipToName": "WineAutomation",
+    "shipToAddress": {
+      "addressLine1": "Streetaddressline1",
+      "addressLine2": "Streetaddressline2",
+      "city": "Milpitas",
+      "state": "CA",
+      "postalCode": "94566"
+    },
+    "shipments": [
+      {
+        "packageWeight": 59.99,
+        "packageWeightUOM": "LB",
+        "referenceNumber": "#(referenceNumber)",
+        "pckgDimensionsUOM": "IN",
+        "packageHeight": 3.6,
+        "packageWidth": 5.5,
+        "packageLength": 6.5,
+        "shipmentMonetaryValue": 12.99,
+        "signatureRequired": "true"
+      }
+    ],
+    "fulfilledQtyForWholeOrder": 10
+  }
+}

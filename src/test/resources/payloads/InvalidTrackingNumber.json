@@ -1,0 +1,23 @@
+{
+	"orderNumber": "#(orderId)",
+	"fulfillmentOrderNumber": "#(fulfillmentOrderId)",
+	"fulfillmentSystemId": "MARKETPLACER",
+
+	"shipment": {
+		"id": "29",
+		"carrier": "UPS",
+		"trackingURL": "http://wwwapps.ups.com/WebTracking/track?loc\u003den_AU\u0026track.x\u003dTrack\u0026trackNums\u003d12345",
+		"trackingNumber": "12345",
+		"shippedDateTime": "#(orderCreatedDate)"
+	},
+	"shippedItems": [
+		{
+			"id": "ShippedItem-34",
+			"marketplaceProductId": "Variant-3157",
+			"qty": 1.0,
+			"upc": 655852000540,
+			"itemId": "990001301"
+		}
+	],
+	"messageAction": "CREATE"
+}

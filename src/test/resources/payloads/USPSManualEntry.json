@@ -1,0 +1,15 @@
+{
+
+  "fulfillmentOrderNumber": "#(fulfillmentOrderId)",
+  "orderNumber": "#(orderId)",
+  "shipmentId" : "29",
+  "shipmentStatus" : "SHIPMENT-CREATED",
+  "trackingNumber" : "9200190312843303711836",
+  "sellerId" : "Seller-2",
+  "trackingURL" : "https://api.usps.com/tracking/v1/tracking/9200190312843303711836?expand=detail",
+  "orderType" : "marketplace",
+  "createdTS" : "2023-07-27T07:55:21.752191774Z",
+  "shippedDateTime" : "2023-07-27T07:55:19.444Z",
+  "carrier" : "USPS",
+  "updatedTS" : "2023-07-27T07:56:00.335857521Z"
+}

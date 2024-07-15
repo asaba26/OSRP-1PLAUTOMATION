@@ -1,0 +1,10 @@
+StoreID,Div,Banner,Address,City,State,ZIP,Launch,c35email,Virtualphoneno,Primary,TZ
+1242,Seattle,safeway,2509 E 29th Ave,Spokane,WA,99223,44266,s1242c35@safeway.com,509-824-2104,DoorDash,America/Los_Angeles
+2796,SoCal,albertsons,1260 E Ontario Ave,Corona,CA,92881,44266,s2796c35@albertsons.com,951-751-3778,DoorDash,America/Los_Angeles
+619,Shaws,shaws,15 State Rd,Dartmouth,MA,2747,44266,s0619c35@shaws.com,508-948-5021,PointPickUp,America/New_York
+2438,Shaws,shaws,160 Old Tower Hill Rd,Wakefield,RI,2879,44266,s2438c35@shaws.com,401-408-4561,PointPickUp,America/New_York
+2876,Eastern,acmemarkets,1095 W Baltimore Pike,Media,PA,19063,44266,s2876c35@acmemarkets.com,610-368-2269,PointPickUp,America/New_York
+3581,Shaws,shaws,255 E Central St,Franklin,MA,2038,44266,s3581c35@shaws.com,508-237-2941,PointPickUp,America/New_York
+4587,Shaws,starmarket,45 Morrissey Blvd,Dorchester,MA,2125,44266,s4587c35@starmarket.com,617-699-4507,PointPickUp,America/New_York
+631,Denver,safeway,2131 N FRONTAGE RD W,VAIL,CO,81657,44266,s0631c35@safeway.com,970-409-0715,PointPickUp,America/Denver
+2792,Denver,safeway,27152 MAIN ST,CONIFER,CO,80433,44266,s2792c35@safeway.com,303-349-3562,PointPickUp,America/Denver

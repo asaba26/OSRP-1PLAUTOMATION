@@ -1,0 +1,30 @@
+{
+	"orderNumber": "#(orderId)",
+	"fulfillmentOrderNumber": "#(fulfillmentOrderId)",
+	"fulfillmentSystemId": "MARKETPLACER",
+	"refundId": "17676676",
+	"refundRequestId": "17676675",
+	"seller": {
+	  "sellerId": "Seller-37",
+	  "sellerName": "Everyday Goods"
+	},
+	"shipment": [
+	  {
+		"id": "13524",
+		"carrier": "UPS",
+		"trackingURL": "http://wwwapps.ups.com/WebTracking/track?loc=en_US&track.x=Track&trackNums=92748902118683573010285649",
+		"trackingNumber": "92748902118683573010285649",
+		"shippedDateTime": "#(orderCreatedDate)",
+		"shippedItems": [
+		  {
+			"id": "ShippedItem-15906",
+			"marketplaceProductId": "Variant-161720",
+			"qty": 2,
+			"upc": "738041120608",
+			"itemId": "970710018"
+		  }
+		],
+		"messageAction": "CREATE"
+	  }
+	]
+  }

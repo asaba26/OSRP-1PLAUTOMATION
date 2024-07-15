@@ -1,0 +1,8 @@
+/target/
+/.project
+/.classpath
+/.settings/
+/bin/
+/src/test/java/com/lastmile/runner/KarateRunner.java
+/.idea/
+/pickup-api-automation.iml

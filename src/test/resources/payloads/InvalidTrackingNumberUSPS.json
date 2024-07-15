@@ -1,0 +1,28 @@
+{
+	"orderNumber": "#(orderId)",
+	"fulfillmentOrderNumber": "#(fulfillmentOrderId)",
+	"fulfillmentSystemId": "MARKETPLACER",
+	"seller": {
+		"sellerId": "Seller-2",
+		"sellerName": "Erica Refund "
+	},
+	"shipment": {
+		"id": "29",
+		"carrier": "USPS",
+		"trackingURL": "https://api.usps.com/tracking/v1/tracking/9200190312800000711836?expand=detail",
+		"trackingNumber": "9200190312800000711836",
+		"shippedDateTime": "#(orderCreatedDate)"
+	},
+
+
+	"shippedItems": [
+		{
+			"id": "ShippedItem-34",
+			"marketplaceProductId": "Variant-3157",
+			"qty": 1.0,
+			"upc": 655852000540,
+			"itemId": "990001301"
+		}
+	],
+	"messageAction": "CREATE"
+}

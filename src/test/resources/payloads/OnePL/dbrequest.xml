@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+<DocFWImport> 
+<Header senderID="SFFODLL" ReceiverID="MyCompany001" SendDateTime="8/2/2017 10:55:15 AM" extDocControlID="xxBOLSourceMessageID" CompanyName="Safeway" LoginName="FW-Interface" Password="changeme" /> 
+<Request>
+<DocRequestTask ScheduleKey="" MessagePurpose="1005" ProcessCode="">
+<DocCriteria>
+<DocBOL Criteria="FWStop.OrderKey like '389552875%'"/>
+</DocCriteria>
+</DocRequestTask>
+</Request>
+</DocFWImport>

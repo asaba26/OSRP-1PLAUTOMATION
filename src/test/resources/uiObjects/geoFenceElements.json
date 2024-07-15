@@ -1,0 +1,31 @@
+{
+	"homepage": {
+		"geoFenceAppHeader": "{^span}Geo Fence Application",
+		"signInButton": "{button}Sign In",
+		"signOutButton": "{button}Sign Out",
+		"geoFencesLink": "{}Geofences"
+	},
+	"loginpage": {
+		"emailTextBox": "input[type='email']",
+		"passwordTextBox": "#passwordInput",
+		"nextButton": "input[type='submit']",
+		"signInButton": "{span}Sign in"
+	},
+	"cancelPopup": {
+		"cancelHeader": "{div}Confirm Deletion Request",
+		"reasonDropdown": "#react-select-reason-code-select-input",
+		"yesConfirmButton": "{button}Yes, Confirm",
+		"noLeaveAsIsButton": "{button}No, Leave As Is"
+	},
+	"others": {
+		"mapTypes":"//div[@class='btn-group btn-group-sm']/button",
+		"selectStoreDropdown": "#react-select-store-select-input",
+		"anyAccordionHeader": "{^h1}Geo-Fence",
+		"saveGeoFenceButton": "{button}Save Geo-Fence",
+		"addPolygonButton": "{button}Add Polygon",
+		"editingHeader": "{span}Editing",
+		"savedMessage": "//span[text()='Geofence saved successfully']",
+		"deletedMessage": "//span[text()='Geofence deleted successfully']",
+		"accordionHeaders": "//h1"
+	}
+}

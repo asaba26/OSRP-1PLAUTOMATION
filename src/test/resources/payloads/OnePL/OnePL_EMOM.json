@@ -1,0 +1,624 @@
+{
+    "audit": {
+      "createDate": "#(orderCreatedDate)",
+      "createdBy": "ECOMMERCE"
+    },
+    "orderNumber": "#(orderId)",
+    "cartId": "1555407",
+    "versionNumber": 1,
+    "orderStatus": "CREATED",
+    "companyId": "1",
+    "banner": "safeway",
+    "storeNumber": "1502",
+    "messageAction": "CREATE",
+    "orderEditCutoffDate": "2024-06-26T06:59:59.000Z",
+    "orderCancelCutoffDate": "2024-06-30T11:00:00.000Z",
+    "orderCreatedDate": "#(orderCreatedDate)",
+    "sourceInfo": {
+      "source": "ECOMMERCE",
+      "enteredBy": "CUSTOMER",
+      "deviceType": "WEB"
+    },
+    "orderType": {
+      "isAutoReplenishment": false,
+      "isSnapV2": false,
+      "orderSize": "REGULAR"
+    },
+    "orderTotal": {
+      "amount": 61.07,
+      "totalSavings": 40.00,
+      "snapEligibleTotal": 0,
+      "nonsnapEligibleTotal": 0,
+      "currency": "USD",
+      "itemTotalAmount": 94.62,
+      "itemTotalAfterSavingsAmount": 54.62,
+      "quotedOrderTotalAmount": 61.07,
+      "totalCardSavings": 20.00,
+      "taxAndFees": {
+        "totalTaxesAndFeesAmount": 1.45,
+        "details": [
+          {
+            "key": "Sales Tax",
+            "value": 0.00
+          },
+          {
+            "key": "Delivery Fee",
+            "value": 0.00
+          },
+          {
+            "key": "Bag Fee",
+            "value": 0.50
+          },
+          {
+            "key": "Container Deposit",
+            "value": 0.95
+          }
+        ]
+      },
+      "taxes": [
+        {
+          "type": "Sales Tax",
+          "amount": 0.00
+        }
+      ],
+      "cardSavings": [
+        {
+          "savingsCategoryName": "Club Card Savings",
+          "savingsAmount": 20.00
+        }
+      ],
+      "txnLevelSavings": [
+        {
+          "offerId": "95688799",
+          "promoCode": "SAVE20",
+          "externalOfferId": "95688799-ND",
+          "calculateUsage": true,
+          "categoryId": 91,
+          "categoryName": "eComm Promo Code",
+          "source": "OMS Non-Digital",
+          "programCode": "SC",
+          "startDate": "2023-04-24T00:00:00.000Z",
+          "endDate": "2025-01-12T00:00:00.000Z",
+          "discountAmount": 20.00,
+          "discountType": "Fixed Amount Off",
+          "description": "",
+          "discountMessage": "Save20 $20 off",
+          "discountLevel": "Basket Level",
+          "netPromotionAmount": 74.62,
+          "discountQty": 1,
+          "clipIds": [
+            "Once Per Offer"
+          ]
+        },
+        {
+          "offerId": "94333205",
+          "externalOfferId": "94333205-ND",
+          "calculateUsage": true,
+          "categoryId": 67,
+          "categoryName": "001-Club Card Savings",
+          "source": "OMS Non-Digital",
+          "programCode": "SC",
+          "startDate": "2024-03-19T00:00:00.000Z",
+          "endDate": "2024-07-27T00:00:00.000Z",
+          "discountAmount": 20.00,
+          "discountType": "Fixed Amount Off",
+          "description": "",
+          "discountMessage": "test Custom",
+          "discountLevel": "Basket Level",
+          "netPromotionAmount": 54.62,
+          "discountQty": 1,
+          "clipIds": [
+            "Custom"
+          ]
+        },
+        {
+          "offerId": "44646442",
+          "externalOfferId": "44646442-ND",
+          "calculateUsage": false,
+          "categoryId": 18,
+          "categoryName": "018-Fuel",
+          "source": "OMS Non-Digital",
+          "programCode": "SC",
+          "startDate": "2024-04-01T00:00:00.000Z",
+          "endDate": "2030-12-31T00:00:00.000Z",
+          "description": "",
+          "discountQty": 1,
+          "points": [
+            {
+              "programName": "Monthly Dollar Points Group",
+              "earn": 32,
+              "burn": 0
+            }
+          ],
+          "clipIds": [
+            "No Limit"
+          ]
+        },
+        {
+          "offerId": "79784391",
+          "promoCode": "SAVE20",
+          "externalOfferId": "79784391-ND",
+          "calculateUsage": true,
+          "categoryId": 91,
+          "categoryName": "eComm Promo Code",
+          "source": "OMS Non-Digital",
+          "programCode": "SC",
+          "startDate": "2023-04-24T00:00:00.000Z",
+          "endDate": "2025-01-12T00:00:00.000Z",
+          "discountAmount": 5.95,
+          "discountType": "Free",
+          "description": "",
+          "discountMessage": "Free Delivery",
+          "discountLevel": "Item Level",
+          "netPromotionAmount": 0.00,
+          "discountQty": 1,
+          "clipIds": []
+        }
+      ]
+    },
+    "customer": {
+      "customerId": "#(testData.customerId)",
+      "clubCardNumber": "49374372817",
+      "customerUUID": "#(testData.customerUUID)",
+      "isSubscription": false,
+      "name": {
+        "firstName": "OnePL",
+        "lastName": "Automation"
+      },
+      "address": [
+        {
+          "addressType": "SHIP-TO",
+          "addressLine1": "113 Windover Dr",
+          "city": "Danville",
+          "state": "CA",
+          "zipCode": "94506",
+          "zipCodeExtn": "1912",
+          "country": "USA",
+          "geoCodes": {
+            "latitude": "37.821540",
+            "longitude": "-121.942616"
+          }
+        }
+      ],
+      "contact": [
+        {
+          "number": "9848755130",
+          "type": "MOBILE"
+        }
+      ],
+      "email": [
+        {
+          "id": "#(testData.email)",
+          "type": "PERSONAL"
+        }
+      ],
+      "preference": {
+        "optIn": [
+          {
+            "type": "TEXT",
+            "id": "9848755130",
+            "isOptin": true
+          }
+        ]
+      },
+      "memberId": "932047037526"
+    },
+    "tenderAllocationSummary": [
+      {
+        "tokenNumber": "4112349122484113",
+        "paymentType": "CREDITCARD",
+        "paymentSubType": "VISA",
+        "amount": 61.07
+      }
+    ],
+    "paymentDetails": [
+      {
+        "paymentType": "CREDITCARD",
+        "transactionType": "SALE",
+        "paymentSubType": "VISA",
+        "tokenNumber": "4112349122484113",
+        "cardExpiryMonth": "12",
+        "cardExpiryYear": "25",
+        "zipcode": "94588",
+        "reqAuthorizationAmount": 61.07,
+        "cardHolderName": "Chase Test",
+        "address": {
+          "zipCode": "94588"
+        },
+        "paymentStatus": {
+          "status": "AUTHORIZED",
+          "authorizationCode": "66731C88288867A000000C150000A7A041565386",
+          "authorizationDate": "2024-06-19T17:59:37.478Z"
+        }
+      }
+    ],
+    "subOrders": [
+      {
+        "subOrderNumber": 1,
+        "itemCount": 38,
+        "fulfillmentType": "DELIVERY",
+        "subOrderType": {
+          "serviceLevel": "REGULAR",
+          "isMto": false,
+          "isMarketPlace": false,
+          "isWine": false,
+          "isB2B": false,
+          "cartCategory": "1P"
+        },
+        "customerService": {
+          "contact": [
+            {
+              "number": "9728411541",
+              "type": "PHONE",
+              "subType": "STORE_PHONE"
+            },
+            {
+              "number": "2243496703",
+              "type": "PHONE",
+              "subType": "OPERATION_PHONE_MOBILE2"
+            },
+            {
+              "number": "3334232311",
+              "type": "MOBILE",
+              "subType": "OPERATION_PHONE_MOBILE1"
+            },
+            {
+              "number": "",
+              "type": "MOBILE",
+              "subType": "CUST_SERV_PHONE"
+            }
+          ]
+        },
+        "deliveryInfo": {
+          "deliverySubType": "RESIDENTIAL",
+          "slotInfo": {
+            "slotPlan": "STANDARD",
+            "slotType": "TWOHR",
+            "slotId": "1211TUE20240625REGULARDELIVERY8001000-2024-06-25",
+            "timeZone": "America/Los_Angeles",
+            "startTime": "#(startTime)",
+            "endTime": "#(endTime)",
+            "editingCutoffDate": "2024-06-30T11:00:00.000Z",
+            "deliveryFee": 5.95,
+            "slotTillByTime": "#(stageByDateTime)",
+            "slotAvailabilityTime": "#(startTime)",
+            "fulfillmentVendor": "ABS-GROCERY",
+            "pickerOption": "ABS-GROCERY"
+          },
+          "deliveryServiceType": "UNATTENDED",
+          "instructions": "drive safe",
+          "stageByDateTime": "#(stageByDateTime)"
+        },
+        "charges": [
+          {
+            "id": "2288700000500",
+            "name": "DriverTip",
+            "category": "DeliveryFee",
+            "chargeAmount": {
+              "amount": 5.00,
+              "currency": "USD"
+            },
+            "tenderAllocations": [
+              {
+                "tokenNumber": "4112349122484113",
+                "paymentSubType": "VISA",
+                "amount": 5.00
+              }
+            ]
+          },
+          {
+            "id": "0000000029103",
+            "name": "BagFee",
+            "category": "ServiceFee",
+            "chargeAmount": {
+              "amount": 0.50,
+              "currency": "USD"
+            },
+            "tenderAllocations": [
+              {
+                "tokenNumber": "4112349122484113",
+                "paymentSubType": "VISA",
+                "amount": 0.50
+              }
+            ]
+          }
+        ],
+        "promoCodes": [
+          {
+            "code": "SAVE20",
+            "amount": 20.00
+          }
+        ],
+        "orderLines": [
+          {
+            "itemId": "960278662",
+            "itemDescription": "BODYARMOR SuperDrink Sports Drink Watermelon Strawberry - 16 Fl. Oz.",
+            "orderedQuantity": 19,
+            "displayType": "-1",
+            "minWeight": 0.0,
+            "unitOfMeasure": "FZ",
+            "itemSizeQty": 16.0,
+            "unitPrice": {
+              "amount": 1.99,
+              "currency": "USD"
+            },
+            "totalItemPrice": 1.99,
+            "substitutionCode": "2",
+            "substitutionValue": "Same Brand Diff Size",
+            "substitutionCodeV2": "3",
+            "substitutionValueV2": "Best Available",
+            "smicCode": "0330100101",
+            "itemPackageQty": 1.0,
+            "isRegulatedItem": false,
+            "isReplenishItem": false,
+            "isArProduct": true,
+            "isMtoProduct": false,
+            "isDSEligible": false,
+            "preparationTime": 0,
+            "tenderAllocations": [
+              {
+                "tokenNumber": "4112349122484113",
+                "paymentSubType": "VISA",
+                "amount": 22.78
+              }
+            ],
+            "department": {
+              "id": "313",
+              "name": "Beverages"
+            },
+            "aisle": {
+              "id": "1_5_8_1",
+              "name": "Sports Drinks"
+            },
+            "shelf": {
+              "id": "1_5_8_1",
+              "name": "Sports Drinks"
+            },
+            "itemPrice": {
+              "itemCode": "0085817600242",
+              "entryId": 1,
+              "department": 313,
+              "snapEligible": true,
+              "unitPrice": 1.99,
+              "basePrice": 1.99,
+              "basePricePer": 0.12,
+              "pricePer": 0.12,
+              "sellByWeight": "I",
+              "averageWeight": 0.000,
+              "extendedPrice": 37.81,
+              "quantityType": "EA",
+              "quantityValue": 19.0,
+              "discountAllowed": true,
+              "itemPluNumber": "0",
+              "pointsApplyItem": false,
+              "wic": false,
+              "isArProduct": true,
+              "netPromotionAmount": 21.83,
+              "savings": [
+                {
+                  "offerId": "95688799",
+                  "promoCode": "SAVE20",
+                  "externalOfferId": "95688799-ND",
+                  "categoryId": 91,
+                  "categoryName": "eComm Promo Code",
+                  "source": "OMS Non-Digital",
+                  "netPromotionAmount": 29.82,
+                  "programCode": "SC",
+                  "startDate": "2023-04-24T00:00:00.000Z",
+                  "endDate": "2025-01-12T00:00:00.000Z",
+                  "discountAmount": 7.99,
+                  "discountType": "Fixed Amount Off",
+                  "description": "",
+                  "discountMessage": "Save20 $20 off",
+                  "discountLevel": "Basket Level",
+                  "calculateUsage": true,
+                  "discountQty": 1,
+                  "clipIds": []
+                },
+                {
+                  "offerId": "94333205",
+                  "externalOfferId": "94333205-ND",
+                  "categoryId": 67,
+                  "categoryName": "001-Club Card Savings",
+                  "source": "OMS Non-Digital",
+                  "netPromotionAmount": 21.83,
+                  "programCode": "SC",
+                  "startDate": "2024-03-19T00:00:00.000Z",
+                  "endDate": "2024-07-27T00:00:00.000Z",
+                  "discountAmount": 7.99,
+                  "discountType": "Fixed Amount Off",
+                  "description": "",
+                  "discountMessage": "test Custom",
+                  "discountLevel": "Basket Level",
+                  "calculateUsage": true,
+                  "discountQty": 1,
+                  "clipIds": []
+                }
+              ]
+            },
+            "alcoholVolumePct": 0,
+            "serviceDepartment": {}
+          },
+          {
+            "itemId": "136450055",
+            "itemDescription": "Lucerne Half And Half - 32 Fl. Oz.",
+            "orderedQuantity": 19,
+            "displayType": "-1",
+            "minWeight": 0.0,
+            "unitOfMeasure": "QT",
+            "itemSizeQty": 1.0,
+            "unitPrice": {
+              "amount": 2.99,
+              "currency": "USD"
+            },
+            "totalItemPrice": 2.99,
+            "substitutionCode": "2",
+            "substitutionValue": "Same Brand Diff Size",
+            "substitutionCodeV2": "3",
+            "substitutionValueV2": "Best Available",
+            "smicCode": "3615020103",
+            "itemPackageQty": 1.0,
+            "isRegulatedItem": false,
+            "isReplenishItem": false,
+            "isArProduct": true,
+            "isMtoProduct": false,
+            "isDSEligible": false,
+            "preparationTime": 0,
+            "tenderAllocations": [
+              {
+                "tokenNumber": "4112349122484113",
+                "paymentSubType": "VISA",
+                "amount": 32.79
+              }
+            ],
+            "department": {
+              "id": "314",
+              "name": "Dairy, Eggs \u0026 Cheese"
+            },
+            "aisle": {
+              "id": "1_11_4_4",
+              "name": "Milk \u0026 Cream"
+            },
+            "shelf": {
+              "id": "1_11_4_4",
+              "name": "Half \u0026 Half"
+            },
+            "itemPrice": {
+              "itemCode": "0002113007108",
+              "entryId": 2,
+              "department": 314,
+              "snapEligible": true,
+              "unitPrice": 2.99,
+              "basePrice": 2.99,
+              "basePricePer": 0.10,
+              "pricePer": 0.10,
+              "sellByWeight": "I",
+              "averageWeight": 0.000,
+              "extendedPrice": 56.81,
+              "quantityType": "EA",
+              "quantityValue": 19.0,
+              "discountAllowed": true,
+              "itemPluNumber": "0",
+              "pointsApplyItem": true,
+              "wic": false,
+              "isArProduct": true,
+              "netPromotionAmount": 32.79,
+              "savings": [
+                {
+                  "offerId": "95688799",
+                  "promoCode": "SAVE20",
+                  "externalOfferId": "95688799-ND",
+                  "categoryId": 91,
+                  "categoryName": "eComm Promo Code",
+                  "source": "OMS Non-Digital",
+                  "netPromotionAmount": 44.80,
+                  "programCode": "SC",
+                  "startDate": "2023-04-24T00:00:00.000Z",
+                  "endDate": "2025-01-12T00:00:00.000Z",
+                  "discountAmount": 12.01,
+                  "discountType": "Fixed Amount Off",
+                  "description": "",
+                  "discountMessage": "Save20 $20 off",
+                  "discountLevel": "Basket Level",
+                  "calculateUsage": true,
+                  "discountQty": 1,
+                  "clipIds": []
+                },
+                {
+                  "offerId": "94333205",
+                  "externalOfferId": "94333205-ND",
+                  "categoryId": 67,
+                  "categoryName": "001-Club Card Savings",
+                  "source": "OMS Non-Digital",
+                  "netPromotionAmount": 32.79,
+                  "programCode": "SC",
+                  "startDate": "2024-03-19T00:00:00.000Z",
+                  "endDate": "2024-07-27T00:00:00.000Z",
+                  "discountAmount": 12.01,
+                  "discountType": "Fixed Amount Off",
+                  "description": "",
+                  "discountMessage": "test Custom",
+                  "discountLevel": "Basket Level",
+                  "calculateUsage": true,
+                  "discountQty": 1,
+                  "clipIds": []
+                }
+              ]
+            },
+            "alcoholVolumePct": 0.0,
+            "salesUnitNbr": 0,
+            "serviceDepartment": {}
+          }
+        ],
+        "messageAction": "CREATE",
+        "address": [
+          {
+            "addressType": "SHIP-FROM",
+            "addressLine1": "3496 Camino Tassajara",
+            "city": "Danville",
+            "state": "CA",
+            "zipCode": "94506",
+            "country": "USA"
+          }
+        ]
+      }
+    ],
+    "storeInfo": [
+      {
+        "key": "isHybridStore",
+        "value": "true"
+      },
+      {
+        "key": "isMFC",
+        "value": "false"
+      },
+      {
+        "key": "isErumsEnabled",
+        "value": "true"
+      },
+      {
+        "key": "isPremiumStore",
+        "value": "true"
+      },
+      {
+        "key": "is3PLStore",
+        "value": "true"
+      },
+      {
+        "key": "isDUGArrivalEnabled",
+        "value": "false"
+      },
+      {
+        "key": "isWYSIWYGEnabled",
+        "value": "true"
+      },
+      {
+        "key": "isRolloutWYSIWYGEnabled",
+        "value": "true"
+      },
+      {
+        "key": "storeTimeZone",
+        "value": "America/Los_Angeles"
+      },
+      {
+        "key": "terminalNumber",
+        "value": "99"
+      },
+      {
+        "key": "isDUGLightArrivalEnabled",
+        "value": "true"
+      },
+      {
+        "key": "storeLatitude",
+        "value": "37.7980093"
+      },
+      {
+        "key": "storeLongitude",
+        "value": "-121.9175922"
+      },
+      {
+        "key": "isPromisePlatform",
+        "value": "true"
+      }
+    ]
+  }

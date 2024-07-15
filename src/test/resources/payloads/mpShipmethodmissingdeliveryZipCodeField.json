@@ -1,0 +1,20 @@
+
+{
+	"sellers": [
+		{
+			"sellerId": "555080",
+			"cartTotal": 45.99,
+			"shippingOptionIds": [
+				"U2hpcHBpbmdPcHRpb24tMTMw"
+		]
+		}
+	],
+
+	"storeId": "1502",
+	"subscriptionType": "SUBSCRIBED",
+	"storeTimeZone": "America/Los_Angeles",
+	"lat": "37.65369494494804",
+	"lng": "-121.89572670303606",
+	"userType": "RESEDENTIAL"
+}
+

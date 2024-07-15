@@ -1,0 +1,30 @@
+{
+	"orderNumber": "#(orderId)",
+	"fulfillmentOrderNumber": "#(fulfillmentOrderId)",
+	"fulfillmentSystemId": "MARKETPLACER",
+	"refundId": "17676676",
+	"refundRequestId": "17676675",
+	"seller": {
+	  "sellerId": "Seller-170",
+	  "sellerName": "Everyday Goods"
+	},
+	"shipment": [
+	  {
+		"id": "13524",
+		"carrier": "FEDEX",
+		"trackingURL": "https://www.fedex.com/apps/fedextrack/?cntry_code=au&tracknumbers=771074348327",
+		"trackingNumber": "771074348327",
+		"shippedDateTime": "#(orderCreatedDate)",
+		"shippedItems": [
+		  {
+			"id": "ShippedItem-15906",
+			"marketplaceProductId": "Variant-161720",
+			"qty": 2,
+			"upc": "738041120608",
+			"itemId": "970710018"
+		  }
+		],
+		"messageAction": "CREATE"
+	  }
+	]
+  }

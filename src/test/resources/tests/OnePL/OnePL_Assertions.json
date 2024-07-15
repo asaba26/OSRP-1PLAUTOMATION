@@ -1,0 +1,156 @@
+{
+"DELIVERY_OnePL": {
+    "orderNumber":"#(orderId)",
+    "fulfillmentOrderNumber" : "#(fulfillmentOrderId)",
+    "storeId": "1211",
+    "siteId":"1211",
+    "email": "ossautomation1@gmail.com",
+    "password": "Automation@123",
+    "customerId": "557-138-1675435529005",
+    "customerUUID": "0c8f282b-c53b-4eef-929b-c1cd004cdd2c",
+    "serviceType": "DELIVERY",
+    "serviceLevel": "REGULAR",
+    "isMarketPlace": false,
+    "isWine": false,
+    "assertMsgType": "ATTENDED",
+    "cartCategory":"1P",
+    "banner": "Safeway",
+    "timeZone": "America/Los_Angeles",
+    "fulfillmentSystem": "APS",
+    "casEnabled": false,
+    "hasSubstitutes": false,
+    "isWalletEnabled":true,
+    "storageType": "CH",
+    "subReasonCode": "null",
+    "substituteItemDesc": "Lucerne Milk Fat Free 1 Gallon - 128 Fl. Oz.",
+    "substituteItemId": "136010127",
+    "substitution": true,
+    "eventTimeStamp_accupick":"2023-07-06T04:33:21.908Z",
+     "upcId": "021130070299",
+    "upcQty": 1.0,
+    "userId": "asaba26",
+    "tenderType": [
+       {
+    "transactionDateTimeUTC": "2022-10-25T18:24:54.901Z",
+    "amount": "39.37",
+    "tokenNumber": "1111",
+    "cardType": "VISA",
+    "type": "creditCard"
+  }
+],
+    "notificationFields": [
+      {
+        "event": "CREATED",
+        "sms": true,
+        "email": false,
+        "triggeredByScheduler": "#boolean",
+        "eventType": "OrderDeliveryDraftEvent"
+      },
+      {
+        "event": "CREATED-AFTER-CUTOFF",
+        "sms": true,
+        "email": false,
+        "triggeredByScheduler": "#boolean",
+        "eventType": "OrderDeliveryScheduledEvent"
+      },
+      {
+        "event": "PICK-START",
+        "sms": true,
+        "email": false,
+        "triggeredByScheduler": "#boolean",
+        "eventType": "OrderPickProcessStartedSMSEvent"
+      },
+      {
+        "event": "PICK-START",
+        "sms": false,
+        "email": true,
+        "triggeredByScheduler": "#boolean",
+        "eventType": "OrderPickProcessStartedPushEvent"
+      },
+      {
+        "event": "PACKED",
+        "sms": true,
+        "email": false,
+        "triggeredByScheduler": "#boolean",
+        "eventType": "OrderPickProcessCompletedSMSEvent"
+      },
+      {
+        "event": "RECEIPT-GENERATED",
+        "sms": false,
+        "email": true,
+        "triggeredByScheduler": "#boolean",
+        "eventType": "OrderReadyForDeliveryEmailEvent"
+      },
+      {
+        "event": "ARRIVED",
+        "sms": true,
+        "email": false,
+        "triggeredByScheduler": "#boolean",
+        "eventType": "DriverArrivedStorePickUpSMS"
+      },
+      {
+        "event": "ARRIVED",
+        "sms": true,
+        "email": false,
+        "triggeredByScheduler": "#boolean",
+        "eventType": "DriverArrivedStorePickUpSMS"
+      },
+      {
+        "event": "DELIVERY-ON-THE-WAY",
+        "sms": true,
+        "email": false,
+        "triggeredByScheduler": "#boolean",
+        "eventType": "OrderDeliveryInTransitEvent"
+      },
+      {
+        "event": "DELIVERY-ON-THE-WAY",
+        "sms": false,
+        "email": true,
+        "triggeredByScheduler": "#boolean",
+        "eventType": "OrderDeliveryAttendedNotificationEmailEvent"
+      },
+      {
+        "event": "BEHIND-SCHEDULE",
+        "sms": true,
+        "email": false,
+        "triggeredByScheduler": "#boolean",
+        "eventType": "OrderDeliveryDelayedEvent"
+      },
+      {
+        "event": "BEHIND-SCHEDULE",
+        "sms": false,
+        "email": true,
+        "triggeredByScheduler": "#boolean",
+        "eventType": "OrderDeliveryDelayedEmailEvent"
+      },
+      {
+        "event": "DELIVERED",
+        "sms": true,
+        "email": false,
+        "triggeredByScheduler": "#boolean",
+        "eventType": "OrderDeliveredEvent"
+      },
+      {
+        "event": "DELIVERED",
+        "sms": false,
+        "email": true,
+        "triggeredByScheduler": "#boolean",
+        "eventType": "OrderDeliveredEmailEvent"
+      },
+      {
+        "event": "DELIVERED",
+        "sms": false,
+        "email": true,
+        "triggeredByScheduler": "#boolean",
+        "eventType": "NPSOrderSurvey"
+      },
+      {
+        "event": "REFUND",
+        "sms": false,
+        "email": true,
+        "triggeredByScheduler": "#boolean",
+        "eventType": "OrderRefundPendingReviewEmail"
+      }
+    ]
+  }
+}

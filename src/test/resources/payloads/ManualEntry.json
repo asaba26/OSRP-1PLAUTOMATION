@@ -1,0 +1,14 @@
+{
+  "fulfillmentOrderNumber": "#(fulfillmentOrderId)",
+  "orderNumber": "#(orderId)",
+  "shipmentId": "2091",
+  "shipmentStatus": "SHIPMENT-CREATED",
+  "trackingNumber": "771074348327",
+  "sellerId": "Seller-170",
+  "trackingURL": "http://wwwapps.ups.com/WebTracking/track?loc=en_US&track.x=Track&trackNums=572254454",
+  "orderType": "marketplace",
+  "createdTS": "2023-04-01T18:00:46.671Z",
+  "shippedDateTime": "2023-04-01T18:00:46.400Z",
+  "carrier": "UPS",
+  "updatedTS": "2023-04-01T18:01:00.344Z"
+}

@@ -1,0 +1,22 @@
+{
+    "DELIVERY_OnePL": {
+        "serviceType": "DELIVERY",
+        "orderEvents": [
+          "CREATED",
+          "CREATED-AFTER-CUTOFF",
+          "RELEASED",
+          "PICK-START",
+          "PACKED",
+          "RECEIPT-GENERATED",
+          "DELIVERY-CREATED",
+          "ENROUTE-TO-PICKUP",
+          "ON-THE-WAY",
+          "ARRIVED",
+          "PICKED-UP",
+          "DELIVERY-ON-THE-WAY",
+          "BEHIND-SCHEDULE",
+          "DELIVERED"
+          
+        ]
+      }
+}
